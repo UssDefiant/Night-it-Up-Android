@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgone"
+    >
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_width="fill_parent">
+            <Button android:id="@+id/refresh" android:layout_height="wrap_content" android:text="Refresh" android:layout_width="wrap_content"></Button>
+        <EditText android:text="\@nightitup" android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_width="185dp"></EditText>
+        <Button android:id="@+id/tweet" android:layout_height="wrap_content" android:text="Tweet!" android:layout_width="wrap_content"></Button>
+    </LinearLayout>
+                
+            <ScrollView android:id="@+id/scrollView1" android:layout_width="fill_parent" android:layout_height="250dp">
+            <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:text="TextView" android:id="@+id/textViewTest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:textColor="#00FFFF"></TextView> </LinearLayout>
+            </ScrollView>
+  
+
+
+	 
+            
+            
+
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1">
+        <RelativeLayout android:id="@+id/RelativeLayout01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1">
+        	<ImageButton android:id="@+id/interactiveMap" android:src="@drawable/vendlogo" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:background="@null"></ImageButton>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/RelativeLayout02" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1">
+            <ImageButton android:id="@+id/perSchedule" android:src="@drawable/perflogo" android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@null"></ImageButton>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1">
+        <RelativeLayout android:id="@+id/RelativeLayout03" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1">
+        	<ImageButton android:id="@+id/parking" android:src="@drawable/parklogo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@null"></ImageButton>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/RelativeLayout04" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1">
+        	<ImageButton android:id="@+id/information" android:src="@drawable/infologo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="right" android:background="@null"></ImageButton>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

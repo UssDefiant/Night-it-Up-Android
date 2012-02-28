@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">Night It Up!</string>
+    <string name="when">When: Friday July 15 6pm to 12pm and Saturday July 16 12pm to 12am</string>
+    <string name="where">Where: Markham Civic Centre 101 Town Centre Boulevard</string>
+    <string name="why">Power Unit Youth Organization will be celebrating its 10th year as organizers of Night It Up! This event will encompass booths and performances catering to all senses – exotic foods, a plethora of home grown performances, merchandise booths with novelty items, and quintessential game booths</string>
+    <string name="who">This app was made by Steven D\'Costa and Hiroshi Kuniyoshi</string>
+</resources>

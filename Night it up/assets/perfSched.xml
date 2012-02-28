@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">Night It Up!</string>
+    <string name="tPerfName">Night It Up!</string>
+    <string name="tPerfBio">Night It Up!</string>
+    <string name="tPerfGenre">Night It Up!</string> 	
+</resources>
